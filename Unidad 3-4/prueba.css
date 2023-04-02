@@ -1,0 +1,49 @@
+h1{
+    color:darkcyan; /* color de la letra*/
+    font-size: 35px;
+    background-color: darkgreen; /*fondos*/
+    text-align: center; /*donde quiero que vaya el texto*/
+    text-transform: uppercase;
+    
+
+}
+ul{
+    color: crimson; /* color de el UL*/
+    font-size: 25px;
+    line-height: 35px; /* separacion de espacio entre textos*/
+    text-align: center;
+}
+
+p{
+    color: rgb(4, 48, 11);
+    text-transform: uppercase; /* Cambiar tipo de texto*/
+}
+.polo{
+    color: rgb(233, 236, 5);
+    font-weight: bold; /* Peso - Negrita*/
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    background-color: green;
+    color: rgb(221, 207, 10);
+    text-align: center;
+}
+h4{
+    background-color: green;
+    color: yellow;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: blueviolet;
+   }
+   body{
+    background-color: blueviolet;
+   }
