@@ -3,11 +3,15 @@ ul{
     font-size: 25px;
     line-height: 35px; /* separacion de espacio entre textos*/
     text-align: center;
+    /*box-shadow: -20px 10px 5px black;*/
+    
+    
 }
 
 p{
     color: rgb(4, 48, 11);
     text-transform: uppercase; /* Cambiar tipo de texto*/
+    border-radius: 30px;
     
 }
 .polo{
@@ -22,11 +26,16 @@ h3{
     background-color: green;
     color: rgb(221, 207, 10);
     text-align: center;
+    border: 15px double #92ff50;
+    box-shadow: 2px -17px 28px 2px rgba(0,0,0,0.75) 
+
 }
 h4{
     background-color: green;
     color: yellow;
     text-align: center;
+    border: 15px double #92ff50;
+    box-shadow: 2px -17px 28px 2px rgba(0,0,0,0.75) 
     
 }
 p{
@@ -45,9 +54,12 @@ p{
 
   
    div{
-    background-color: rgb(3, 82, 16);
+    /*background-color: rgb(3, 82, 16);*/
     text-align: center;
     color: yellow;
+    background: rgb(199,99,209);
+background: linear-gradient(90deg, rgba(199,99,209,1) 2%, rgba(109,215,103,1) 54%, rgba(252,176,69,1) 81%);
+border: 15px groove #024149;
    
    }
     
