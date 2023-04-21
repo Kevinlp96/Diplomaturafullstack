@@ -1,0 +1,36 @@
+#contenedor{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid ;
+    margin: 0% auto;
+    width: 15%;
+    height: 300px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+
+}
+#verde{
+    background-color: green;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+    font-size: 30px;
+ 
+}
+#Rojo{
+     background-color: red;
+     display: flex;
+     width: 100px;
+     height: 100px;
+     
+     font-size: 30px;
+}
+#azul{
+    background-color: blue;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
