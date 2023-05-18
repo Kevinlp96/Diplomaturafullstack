@@ -34,6 +34,7 @@ nav ul {
     padding: 0;
     display: flex;
 }
+
 nav ul li {
     flex-grow: 1;
 }
@@ -49,7 +50,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-footer{
+
+footer {
     background-color: gray;
     clear: both;
     color: rgb(247, 247, 247);
@@ -58,43 +60,49 @@ footer{
     margin-top: 20px;
     height: 100px;
 }
-nav ul li a.activo{
+
+nav ul li a.activo {
     background-color: rgb(96, 135, 192)
 }
-.holder{
+
+.holder {
     max-width: 960px;
     margin: 0 auto;
 }
 
-h2{
+h2 {
     color: darkcyan;
     font-weight: 400;
 }
 
 /*reglas para home*/
-.bienvenidos{
+.bienvenidos {
     width: 75%;
     padding-right: 10px;
     box-sizing: border-box;
 }
 
-.testimonios{
+.testimonios {
     width: 25%;
 }
+
 .bienvenidos p {
     font-size: 20px;
 }
+
 .testimonio {
     background-color: gray;
     padding: 16px;
 }
-.testimonio .cita{
+
+.testimonio .cita {
     font-weight: bold;
     font-style: italic;
     font-size: 20px;
     display: block;
 }
-.testimonio .autor{
+
+.testimonio .autor {
     font-size: 15px;
     text-align: center;
     background-color: darkorange;
@@ -105,8 +113,8 @@ h2{
 
 /*fin home*/
 /*inicio nosotros*/
-.historia p{
-    font-size: 12px ;
+.historia p {
+    font-size: 12px;
 }
 
 .personas {
@@ -114,7 +122,7 @@ h2{
     display: flex;
 }
 
-.persona{
+.persona {
     border: 1px solid gray;
     border-radius: 5px;
     width: 18%;
@@ -124,21 +132,62 @@ h2{
     background-color: orange;
 }
 
-.persona img{
+.persona img {
     border-radius: 50%;
     max-width: 60%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0,5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 5);
 }
+
 .persona h5,
-.persona h6{
+.persona h6 {
     margin: 0;
     font-weight: normal;
     color: rgb(80, 80, 204);
 }
 
-.persona p{
+.persona p {
     color: rgb(0, 0, 0);
     font-size: 12px;
 }
 
 /*fin nosotros*/
+
+/* Inicio Servicios*/
+
+.servicio {
+border: 1px solid rgb(214, 200, 200);
+border-radius: 10px;
+padding: 16px;
+margin: 16px 0;
+display: flex;
+gap: 32px;
+align-items: center;
+}
+
+.servicio .info h4{
+    color: rgb(36, 119, 197);
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid rgb(32, 116, 211);
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+    font-size: 13px;
+    line-height: 19px;
+
+}
+
+.servicio img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+
+/* Fin servicios*/
