@@ -58,7 +58,6 @@ footer {
     text-align: center;
     padding: 5px 0;
     margin-top: 20px;
-    height: 100px;
 }
 
 nav ul li a.activo {
@@ -191,3 +190,73 @@ align-items: center;
 
 
 /* Fin servicios*/
+
+/* inicio galeria */
+.galeria img{
+    width: 18%;
+    border: 1px solid rgb(248, 236, 236);
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*fin galeria */
+
+/* inicio novedades */
+.novedades p {
+ border-bottom: 1px solid rgb(10, 10, 10);
+ padding-bottom: 10px;
+ line-height: 19px;
+}
+
+
+/* fin novedades */
+
+/* Inicio contactos */
+.contacto div {
+width: 100%;
+}
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p {
+display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+    background-color: brown;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea{
+    background: gainsboro;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+/*fin contactos */
